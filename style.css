@@ -409,21 +409,42 @@ section .title::after{
     top: 0;
     background: crimson;
 }
-.skills-content .right .html::before{
-    width: 90%;
+.skills-content .right .js::before{
+    width: 100%;
 }
 .skills-content .right .css::before{
-    width: 60%;
+    width: 100%;
 }
-.skills-content .right .js::before{
-    width: 80%;
+.skills-content .right .html::before{
+    width: 100%;
+}
+.skills-content .right .python::before{
+    width: 90%;
+}
+.skills-content .right .ccpp::before{
+    width: 90%;
 }
 .skills-content .right .php::before{
     width: 50%;
 }
 .skills-content .right .mysql::before{
-    width: 70%;
+    width: 100%;
 }
+
+.skills-content .right .reactjs::before{
+    width: 30%;
+}
+
+.skills-content .right .nodejs::before{
+    width: 80%;
+}
+
+
+.skills-content .right .mongodb::before{
+    width: 50%;
+}
+
+
 
 /* contact section styling */
 .contact .title::after{
@@ -660,5 +681,30 @@ footer span a:hover{
         width: 35px;
         font-size: 23px;
         line-height: 38px;
+    }
+}
+
+
+.text-3:before{
+    content:'';
+    animation: animate infinite 1s;
+}
+
+@keyframes animate{
+    0%{
+        content: Web Developer;
+    }
+    25%{
+        content: App Developer;
+    }
+    50%{
+        content: Tech Enthusiast;
+    }
+    75%{
+        content: Programmer;
+    }
+   
+    100%{
+        content: Designer;
     }
 }
