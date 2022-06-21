@@ -166,7 +166,7 @@ section .title::after{
 /* home section styling */
 .home{
     display: flex;
-    background: url("./5137894.jpg") no-repeat center;
+    background: url("https://ik.imagekit.io/2zyzw19ob/5137894_TmwohiT7d.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1655837252939") no-repeat center;
     height: 100vh;
     color: #fff;
     min-height: 500px;
